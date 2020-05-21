@@ -13,7 +13,7 @@ class Seq2SeqMorphoSegmenter(object):
     https://www.aclweb.org/anthology/N18-1005.pdf. The default parameters
     reproduce the baseline experiment.
 
-    TODO: Support multi-task training and data augmentation experiments.
+    TODO: Support multi-lingual training.
     """
     def __init__(self, encoder_embedding_dim=300, encoder_hidden_size=100,
                  encoder_dropout_p=0.3, decoder_embedding_dim=300,
