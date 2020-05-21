@@ -1,5 +1,5 @@
 #morphology
-Morphological segmentation exploration
+Morphological segmentation exploration for low-resource polysynthetic languages of Mexico.
 
 A large part of the motivation for this repo is to replicate the experiments described in https://www.aclweb.org/anthology/N18-1005.pdf. So far, only the neural seq2seq model (with multi-task training option) is available.
 
